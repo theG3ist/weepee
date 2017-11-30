@@ -99,8 +99,7 @@ class wifispray:
 						state = self.interface.get_state()
 						print(state)
 					if loop > 10:
-						break
-					
+						break				
 					
 				if state == "completed":
 					print(color.B+state+color.E)
